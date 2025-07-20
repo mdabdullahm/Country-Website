@@ -26,7 +26,7 @@ const VisitedCountries = ({ visitedCountries, visitedFlags }) => {
 
             {/* Display the names of visited countries */}
             <h3 className="text-xl font-semibold mb-2">Visited Country Names:</h3>
-            <ul className="list-disc list-inside bg-gray-100 p-4 rounded-md">
+            <ul className="list-inside bg-teal-300 p-4 rounded-md list-none">
                 {
                     visitedCountries.map(country => (
                         <li key={country.cca3} className="text-lg mb-1">{country.name.common}</li>
